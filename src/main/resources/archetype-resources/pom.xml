@@ -5,7 +5,8 @@
 	<groupId>${groupId}</groupId>
 	<artifactId>${artifactId}</artifactId>
 	<version>${version}</version>
-	<packaging>jar</packaging>
+
+    <packaging>jar</packaging>
 	<name>Simple Spring project</name>
 	<description>Simple Spring project</description>
 
@@ -49,11 +50,6 @@
 				<version>${spring-version}</version>
 			</dependency>
 
-			<dependency>
-				<groupId>org.springframework</groupId>
-				<artifactId>spring-jms</artifactId>
-				<version>${spring-version}</version>
-			</dependency>
 
 			<!-- Logging -->
 			<dependency>
@@ -96,19 +92,10 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-jms</artifactId>
-		</dependency>
-
-		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 		</dependency>
 
-        <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongo-java-driver</artifactId>
-        </dependency>
 
 		<dependency>
 			<groupId>junit</groupId>

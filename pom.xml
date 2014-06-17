@@ -28,7 +28,7 @@
     </pluginManagement>
   </build>
 
-  <description>MongoDB test project</description>
+  <description>Simple Spring Project Archetype</description>
 
   <url>https://github.com/nachomezzadra/simple-spring-archetype</url>
 
