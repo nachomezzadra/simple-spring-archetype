@@ -13,6 +13,6 @@
 	<context:annotation-config />
 	<context:component-scan base-package="*" />
 
-	<context:property-placeholder location="classpath:${artifactId}.properties" />
+	<context:property-placeholder location="classpath:/${artifactId}.properties" />
 
 </beans>

@@ -7,8 +7,8 @@
 	<version>${version}</version>
 
     <packaging>jar</packaging>
-	<name>Simple Spring project</name>
-	<description>Simple Spring project</description>
+	<name>${projectName}</name>
+	<description>${projectDescription}</description>
 
 	<url>https://github.com/nachomezzadra/${artifactId}</url>
 
@@ -21,16 +21,14 @@
 
 	<properties>
 		<slf4j-version>1.7.5</slf4j-version>
-		<log4j-version>1.2.15</log4j-version>
+		<log4j-version>1.2.17</log4j-version>
 		<junit-version>4.11</junit-version>
-		<spring-version>4.0.3.RELEASE</spring-version>
-		<mongodb-version>2.10.1</mongodb-version>
+		<spring-version>4.0.5.RELEASE</spring-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencyManagement>
 		<dependencies>
-
 			<!-- Spring -->
 			<dependency>
 				<groupId>org.springframework</groupId>
@@ -49,7 +47,6 @@
 				<artifactId>spring-context</artifactId>
 				<version>${spring-version}</version>
 			</dependency>
-
 
 			<!-- Logging -->
 			<dependency>
